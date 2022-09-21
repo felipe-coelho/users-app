@@ -1,6 +1,6 @@
 # Users search app
 
-## Technoligies
+## Technologies
 - Vuejs 2
 - Vuex
 - Nuxt

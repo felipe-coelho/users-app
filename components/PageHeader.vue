@@ -3,7 +3,7 @@
     <div class="header__content">
       <div class="header__logo">
         <a href="/">
-          <img src="/users-logo-web.png" alt="Juntos Somo +">
+          <img src="/users-logo-web.png" alt="USERS">
         </a>
       </div>
       <div class="header__search">

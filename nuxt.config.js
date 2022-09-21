@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'jsm-challenge',
+    title: 'USERS',
     htmlAttrs: {
       lang: 'en'
     },

@@ -3,7 +3,7 @@
     <div class="header__content">
       <div class="header__logo">
         <a href="/">
-          <img src="/juntossomosmais_logo.png" alt="Juntos Somo +">
+          <img src="/users-logo-web.png" alt="Juntos Somo +">
         </a>
       </div>
       <div class="header__search">
@@ -64,6 +64,10 @@ export default {
 
     .header__logo {
       margin-right: 140px;
+
+      a img {
+        border-radius: 5px;
+      }
 
       @media (max-width: 768px) {
         margin-right: 0;

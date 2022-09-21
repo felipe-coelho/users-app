@@ -1,4 +1,11 @@
-# Juntos Somos + Frontend Challenge
+# Users search app
+
+## Technoligies
+- Vuejs 2
+- Vuex
+- Nuxt
+- Cypress
+- Istanbul
 
 ## Build Setup
 

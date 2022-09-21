@@ -23,6 +23,7 @@
 import { mapState, mapActions } from 'vuex'
 import FiltersList from '~/components/SearchResults/FiltersList'
 import ResultsList from '~/components/SearchResults/ResultsList'
+import Utils from '~/utils/index'
 export default {
   name: 'IndexPage',
 
@@ -48,6 +49,7 @@ export default {
       statesFilterList: [...getUniqStates].map((state, index) => {
         return {
           id: index,
+          label: state,
           name: state
         }
       }),
@@ -55,6 +57,7 @@ export default {
       gendersFilterList: [...getUniqGenders].map((gender, index) => {
         return {
           id: index,
+          label: Utils.getGenderTranslate(gender),
           name: gender
         }
       })

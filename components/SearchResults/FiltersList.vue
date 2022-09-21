@@ -16,7 +16,7 @@
             class="filters-list__check"
             @change="$emit('filterChanged', filterSelected)"
           >
-          {{ filter.name }}
+          {{ filter.label }}
         </label>
       </li>
     </ul>

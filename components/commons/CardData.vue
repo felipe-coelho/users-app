@@ -29,7 +29,7 @@ export default {
 
   &--hover:hover {
     @include box-shadow;
-    border-color: #6200EE;
+    border-color: #E2BD93;
     transition: all ease-in .3s;
   }
 
